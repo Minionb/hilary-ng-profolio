@@ -1,6 +1,6 @@
 {
   "name": "hilary-ng",
-  "homepage": "https://YourUserName.github.io/my-profolio/",
+  "homepage": "https://hilary-ng.web.app/",
   "version": "1.0.2",
   "private": true,
   "dependencies": {
@@ -21,12 +21,14 @@
     "workbox-expiration": "^7.1.0",
     "workbox-precaching": "^7.1.0",
     "workbox-routing": "^7.1.0",
-    "workbox-strategies": "^7.1.0"
+    "workbox-strategies": "^7.1.0",
+    "firebase": "^9.23.0"
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.1.1",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "firebase-tools": "^8.20.0"
   },
   "scripts": {
     "predeploy": "npm run build",

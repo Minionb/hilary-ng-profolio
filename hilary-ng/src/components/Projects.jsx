@@ -27,7 +27,7 @@ const Projects = () => {
   const mainProjects = useSelector(selectMainProjects);
   const { isLoading, isSuccess, isError, error } = useGetProjectsQuery();
   let content;
-  const selectedProjects = [{projectName: "MAPD712-Project-Group7", description: "Health Minder - Patient Clinical Data Management App", stack: "React Native, Rest API, MongoDB, NodeJs, Jest, Figma", url: "https://github.com/Minionb/MAPD712-Project-Group7", imagePath: PatientAppImg}, 
+  const selectedProjects = [{projectName: "MAPD712-Project-Group7", description: "Health Minder - Patient Clinical Data Management App", stack: "React Native, Rest API, MongoDB, NodeJs, Jest, Figma", url: "https://github.com/Minionb/MAPD712-Project-Group7", imagePath: PatientAppImg, demo: "https://www.youtube.com/watch?v=NG69WHkBG3k"}, 
   {projectName: "PuiYeeNg_WeatherApp", description: "Weather App", stack: "React Native, Rest API", url: "https://github.com/Minionb/PuiYeeNg_WeatherApp", imagePath: WeatherAppImg},
   {projectName: "Shipment_Booking_WebApp", description: "Shipment Booking App", stack: "React, Rest API, MongoDB", url: "https://github.com/Minionb/Shipment_Booking_WebApp", imagePath:BookingAppImg},
   {projectName: "Fashion-Fusion", description: "Fashion Fusion - Fashion Store E-commerce App", stack: "Dart, Flutter, Figma, Rest API, NodeJs, MongoDB, Jest", url: "https://github.com/Minionb/Fashion-Fusion", imagePath: FasionAppImg},
@@ -59,7 +59,7 @@ const Projects = () => {
                       name={element.description}
                       description={element.stack}
                       url={element.url}
-                      // demo={element.homepage}
+                      demo={element.demo}
                     />
                   </Col>
                 );
