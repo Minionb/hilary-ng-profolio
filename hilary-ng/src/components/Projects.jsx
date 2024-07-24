@@ -18,7 +18,9 @@ import PatientAppImg from "../images/patientApp.png";
 import WeatherAppImg from "../images/weatherApp.png";
 import BookingAppImg from "../images/bookingApp.png";
 import FasionAppImg from "../images/fasionApp.png";
-import clinicalDataImg from "../images/clinicalDataAPI.png"
+import clinicalDataImg from "../images/clinicalDataAPI.png";
+import displayImg from "../images/Display.png";
+import homeScreenImg from "../images/HomeScreen.png";
 
 // #region component
 const Projects = () => {
@@ -32,6 +34,8 @@ const Projects = () => {
   {projectName: "Shipment_Booking_WebApp", description: "Shipment Booking App", stack: "React, Rest API, MongoDB", url: "https://github.com/Minionb/Shipment_Booking_WebApp", imagePath:BookingAppImg},
   {projectName: "Fashion-Fusion", description: "Fashion Fusion - Fashion Store E-commerce App", stack: "Dart, Flutter, Figma, Rest API, NodeJs, MongoDB, Jest", url: "https://github.com/Minionb/Fashion-Fusion", imagePath: FasionAppImg},
   {projectName: "Patient-Clinical-Data-Management-API", description: "Patient Clinical Data Management API", stack: "Node.js, Express, REST API, Mongo DB, Chai", url: "https://github.com/Minionb/Patient-Clinical-Data-Management-API", imagePath: clinicalDataImg},
+  {projectName: "Photo-Picker-Swift-UI", description: "Photo Picker", stack: "Swift UI, IOS Development", url: "https://github.com/Minionb/Photo-Picker-Swift-UI", imagePath: displayImg},
+  {projectName: "Easy-Grocery-Kotlin", description: "Easy Grocery", stack: "Kotlin, Android App Development", url: "https://github.com/Minionb/Easy-Grocery-Kotlin", imagePath: homeScreenImg},
   ]
 
   if (isLoading) {
